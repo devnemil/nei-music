@@ -16,7 +16,7 @@ module.exports = {
 
     
 
-    channel.join();
+    channel.leave();
 
     message.channel.send(`Leaved ****${channel.name}****`)
 
