@@ -1,5 +1,3 @@
-### NEI-MUSIC REPO IS AVAILABLE AT GITHUB NOW!
-[Tap here to go to Our GitHub Repo!](https://github.com/nekunei/nei-music)
 
 ![nei-music](https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FUntitled71_20200720095138.png?v=1595213533503)
 > Play your Cool Song at This bot. Free for remix...
