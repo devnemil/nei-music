@@ -49,8 +49,6 @@ DOMAIN=
 * Skip (!skip)
 * Toggle pruning of bot messages (!pruning)
 * Help (!help)
-* Media Controls via Reactions
-![reactions](https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_094549.JPG?v=1595213171592)
 
 ## Credits
 Big Thanks to [__Eritislami__](https://github.com/eritislami) For the Repos.
