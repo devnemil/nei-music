@@ -37,7 +37,7 @@ module.exports = {
 
     queue.connection.on("disconnect", () => message.client.queue.delete(message.guild.id));
 
-    const type = song.url.includes("youtube.com") ? "opus" : "mp3/opus";
+    const type = song.url.includes("youtube.com") ? "opus" : "aac/opus";
     const dispatcher = queue.connection
       .play(stream, { type: type })
       .on("finish", () => {
