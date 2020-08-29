@@ -16,9 +16,7 @@ module.exports = {
 
     
 
-    channel.join().then((connection) => {
-      const dispatcher = connection.play("https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FDark%20Cloud%20Lite3.mp3?v=1598611285585");
-})
+    channel.join()
     message.channel.send(`Joined ****${channel.name}****`)
 
   }
