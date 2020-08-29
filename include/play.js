@@ -10,15 +10,9 @@ module.exports = {
     const queue = message.client.queue.get(message.guild.id);
 
     if (!song) {
-      message.member.voice.channel.join().then((connection) => {
-     const dispatcher = connection.play("https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FDark%20Cloud%20Lite3.mp3?v=1598611285585");
-      message.channel.send("Queue has Ended. We are Playing back the Bots Default song.");});
+      
      return message.client.queue.delete(message.guild.id);
-  /*    let ehm = new MessageEmbed()
-      .setAuthor("Queue Ended", `https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
-      .setFooter("Thank you For Listening nei-music")
-      .setThumbnail(`https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
-  */
+
     }
 
     let stream = null;
